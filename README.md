@@ -39,5 +39,7 @@ all       |all         :        WER=19.18% N=119653 C=100380 D=5220 S=14053 I=36
 
 # Debug Record
 1 Using Python 3.8.13 and torch 2.3.1
+
 2 Some grammar errors and patameter errors, just rectify them.
+
 3 It requires some unmentioned dependencies, install them. And specifically it needs deepspeed and pysoundfile. To install deepspeed, git clone https://github.com/microsoft/DeepSpeed.git and then pip install . And the error information won't mention that you need pysoundfil, it just tells you that the data can not be opened and you can find that the shard.tar files are not properly written and with size of 0 bytes.
